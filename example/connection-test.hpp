@@ -3,12 +3,12 @@
 #include <Arduino.h>
 #include "WifiHandler/src/WifiHandler.h"
 
-WifiHandler wifi("eFisheryPlus", "123123123");
+WifiHandler wifi("Your SSID", "Your Pass");
 
 void setup()
 {
     Serial.begin(115200);
-    Serial.println("\nWiFi Handler Macca Lab Test !");
+    Serial.println("\nWiFi Handler Test !");
     vTaskDelay(1000);
 
     wifi.init();
