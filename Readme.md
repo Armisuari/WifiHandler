@@ -1,0 +1,1 @@
+The WiFihandler Arduino Library simplifies ESP32 WiFi management by providing an independent background task for maintaining WiFi connections. This library, built on the Arduino ESP32 WiFi library, enables seamless WiFi integration into IoT and embedded projects, ensuring stable connections while allowing developers to focus on their core application logic.
